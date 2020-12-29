@@ -2,6 +2,12 @@
     display: inline-block;
 }
 
+.button {
+    display: inline-block;
+    border-radius: 12px;
+    outline: none;
+}
+
 .unit-counter {
     text-align: center;
 }
