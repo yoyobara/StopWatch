@@ -1,13 +1,54 @@
+@font-face {
+    font-family: "NovaSquare";
+    src: url(NovaSquare.ttf);
+}
+
+body {
+    background-color: #015270;
+    font-family: "NovaSquare";
+    text-align: center;
+}
+
+.maindiv {
+    background-color: #12232e;
+    padding: 72px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: 70px;
+}
+
 .counter>* {
     display: inline-block;
 }
 
-.button {
-    display: inline-block;
-    border-radius: 12px;
-    outline: none;
+.counter {
+    color: #EEFBFB;
+    font-size: 100px;
 }
 
 .unit-counter {
     text-align: center;
+}
+
+.unit-letter {
+    color: #B4C1CA;
+    font-size: 60px;
+}
+
+.panel {
+    margin-top: 50px;
+}
+
+.button {
+    color: #EEFBFB;
+    background-color: #4DA8DA;
+    font-family: "NovaSquare";
+    display: inline-block;
+    border-radius: 12px;
+    outline: none;
+    font-size: 70px;
+    padding: 10px;
+    margin-inline: 20px;
+    border-style: ridge;
 }
