@@ -16,6 +16,7 @@ body {
     display: inline-block;
     position: relative;
     top: 70px;
+    min-width: 764px;
 }
 
 .counter>* {
@@ -29,6 +30,7 @@ body {
 
 .unit-counter {
     text-align: center;
+    width: 135px;
 }
 
 .unit-letter {
@@ -50,5 +52,8 @@ body {
     font-size: 70px;
     padding: 10px;
     margin-inline: 20px;
-    border-style: ridge;
+}
+
+#startstop {
+    width: 223.48px;
 }
