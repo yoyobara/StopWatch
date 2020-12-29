@@ -1,3 +1,7 @@
-body {
-    background-color: #015270;
+.counter>* {
+    display: inline-block;
+}
+
+.unit-counter {
+    text-align: center;
 }
